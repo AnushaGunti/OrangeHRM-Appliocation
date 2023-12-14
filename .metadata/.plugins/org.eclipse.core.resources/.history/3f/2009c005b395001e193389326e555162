@@ -1,0 +1,6 @@
+<suite>
+<test name="LogInPAge Test">
+<classes>
+<class name="com.OrangeHRMTests.orangeHRMLogInPageTest ">
+</class></classes>
+</test></suite>

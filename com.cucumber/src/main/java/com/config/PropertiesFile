@@ -1,0 +1,43 @@
+
+#-OrangeHRM Application LogInPanel Element property-the locator is id
+OrangeHRMHomePageLogInPanelTextProperty=logInPanelHeading
+#-OrangeHRM Application LogIn Page of UserName Element Property -is locator is id
+OrangeHRMHomePageUserNameProperty=txtUsername
+#-OrangeHRM Application LogIn Page of Password Element Property -is locator is id
+OrangeHRMHomePagePasswordProperty=txtPassword
+#-OrangeHRM application LogIn button Element property-the locator is class
+OrangeHRMHomePAgeLogInButtonProperty=button
+#-orangeHRM Application HomePAge validation of WelComeAdmin Element Property is id
+OrangeHRMHomePageWelComeAdminProperty=welcome
+#-OrangeHRM Application PIM Element property -The locatoe is linkText
+orangeHRMHomePAgePIMProperty=PIM
+#-orangeHRM application Add Employee Property Eelemnt -the locator is linkText
+OrangeHRMAddEmployeeProperty=Add Employee
+#-orangeHRM Application Add Employee PAge Text Element -the locator is xpath
+orangeHRMApplicationAddEmployeeTextproperty=/html/body/div[1]/div[3]/div/div[1]/h1
+#-orangeHRM Application Add Employee PAge First Name Element -the locator is id
+orangeHRMApplicationFirstNameproperty=firstName
+#-orangeHRM Application Add Employee PAge Middle Name Element -the locator is id
+orangeHRMApplicationMiddleNameproperty=middleName
+#-orangeHRM Application Add Employee PAge Last Name Element -the locator is id
+orangeHRMApplicationLastNameproperty=lastName
+#-orangeHRM application Employee ID value Element property-the locator is id
+orangeHRMApplicationAddEmployeePageEmployeeIDProperty=employeeId
+#-orangeHRM application photo value Element property-the locator is name
+orangeHRMApplicationAddEmployeePagePhotoProperty=photofile
+#-orangeHRM Application Save Button Element Property-the locator is id
+orangeHRMApplicationsaveButtonProperty=btnSave
+#-orangeHRM Application Personal Details text Page Element-the locator is xpath
+orangeHRMApplicationPersonalDetailsProperty=/html/body/div[1]/div[3]/div/div[2]/div[1]/h1 
+#-orangeHRM application Personal Details Firast Name Element Property-the locator is name
+orangeHRMApplicationPersonalDetailsFirstNameProperty=personal[txtEmpFirstName]
+#-orangeHRM application Personal Details Middle Name Element Property-the locator is name
+orangeHRMApplicationPersonalDetailsMiddleNameProperty=personal[txtEmpMiddleName]
+#-orangeHRM application Personal Details Last Name Element Property-the locator is name
+orangeHRMApplicationPersonalDetailsLastNameProperty=personal[txtEmpLastName]
+#-orangeHRM application Personal Details Photo Above Name Element Property-the locator is xpath
+orangeHRMApplicationPersonalDetailsPhotoAboveNameProperty=/html/body/div[1]/div[3]/div/div[1]/div/h1
+#-orangeHRM Application Employee List Element property -the locator is linkText
+OrangeHRMAppliationEmployeelistProperty=Employee List
+#-orangeHRM Application Employee List Table Element property -the locator is class
+OrangeHRMAppliationEmployeelistTableProperty=inner

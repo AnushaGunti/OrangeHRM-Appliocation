@@ -1,0 +1,44 @@
+#-OrangeHRM Application LogInPanel Element property-the locator is id
+OrangeHRMHomePageLogInPanelTextProperty=logInPanelHeading
+#-OrangeHRM Application UserName Element property-the locator is id
+OrangeHRMHomePageUserNameProperty=txtUsername
+#-OrangeHRM Application Password Element property-the locator is id
+OrangeHRMHomePagePasswordProperty=txtPassword
+#-OrangeHRM Application LogInButton Element property-the locator is id
+OrangeHRMHomePageLogInButton =btnLogin
+#-OrangeHRM Application welcome Admin Element property-the locator is id
+OrangeHRMHomePageWelComeAdminText=welcome
+#-OrangeHRM Application PIM Element property-the locator is linkText
+OrangeHRMHomePageHeaderBlockPIMproperty=PIM
+#-OrangeHRM Application Add Employee Element property-the locator is linkText
+OrangeHRMHomePageAddEmployeeProperty=Add Employee
+#-OrangeHRM Application Add Employee webPage Element property-the locator is x-path
+OrangeHRMHomePageAddEmployeewebPageProperty=/html/body/div[1]/div[3]/div/div[1]/h1
+#-OrangeHRM Application FirstName Element property-the locator is name
+OrangeHRMHomePageFirstNameProperty=firstName
+#-OrangeHRM Application MiddleName Element property-the locator is name
+OrangeHRMHomePageMiddleNameProperty=middleName
+#-OrangeHRM Application LastName Element property-the locator is id
+OrangeHRMHomePageLastNameProperty=lastName
+#-OrangeHRM Application EmployeeID Element property-the locator is name
+OrangeHRMHomePageEmployeeIDProperty=employeeId
+#-OrangeHRM Application SaveButton Element property-the locator is id
+OrangeHRMHomePageSaveButtonProperty=btnSave
+#-OrangeHRM Application SaveButton Element property-the locator is X-path
+orangeHRMHomePagePersonalDetailsTextProperty=/html/body/div[1]/div[3]/div/div[2]/div[1]/h1
+#-OrangeHRM Application PersonalDetailsWebPageFirstName Element property-the locator is id
+orangeHRMHomePagePersonalDetailsWebPageFirstNameProperty=personal_txtEmpFirstName
+#-OrangeHRM Application PersonalDetailsWebPageMiddleName Element property-the locator is id
+orangeHRMHomePagePersonalDetailsWebPageMiddleNameProperty=personal_txtEmpMiddleName
+#-OrangeHRM Application PersonalDetailsWebPageLastName Element property-the locator is id
+orangeHRMHomePagePersonalDetailsWebPageLastNameProperty=personal_txtEmpLastName
+#-OrangeHRM Application PersonalDetailsWebPagePhotographaboveName Element property-the locator is x-path
+orangeHRMHomePagePersonalDetailsWebPagePhotographaboveNameProperty=/html/body/div[1]/div[3]/div/div[1]/div/h1
+#-OrangeHRM Application Welcome Admin Element property-the locator is id
+orangeHRMHomePageWelComeAdminProperty=welcome
+#-OrangeHRM Application LogOut Element property-the locator is linkText
+orangeHRMHomePageLogoutProperty=Logout
+
+
+
+

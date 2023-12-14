@@ -1,0 +1,28 @@
+
+<suite name="OrangeHRM Application">
+  <test name="Automating Browser">
+    <classes>
+      <class name="OHRM.BaseTest"/>
+    </classes>
+  </test> 
+  <test name="LogInTest">
+  <classes>
+  <class name="OHRM.LogInPageOHRM">
+  </class></classes>
+  </test>
+  <test name="AddEmployee">
+  <classes>
+  <class name="OHRM.AddEmployee">
+  </class></classes>
+   </test >
+   <test name="Personal Details">
+   <classes>
+   <class name="OHRM.personalDetails">
+   </class>
+   </classes>
+   </test>
+   <test name="Employeelist">
+   <classes>
+   <class name="OHRM.EmployeeListTest">
+   </class></classes></test>
+</suite> 

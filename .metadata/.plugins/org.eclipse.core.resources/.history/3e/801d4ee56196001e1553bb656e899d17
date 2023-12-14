@@ -1,0 +1,5 @@
+Feature: OrangeHRM Appliation Functionalities Testing
+Scenario: OrangeHRM Applicaiton LogIn Page Validation
+
+When User enters OrangeHRM Application Url Address
+

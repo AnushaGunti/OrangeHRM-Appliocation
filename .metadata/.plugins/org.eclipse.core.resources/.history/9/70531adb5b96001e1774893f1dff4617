@@ -1,0 +1,31 @@
+package com.cucumber;
+
+import java.util.concurrent.TimeUnit;
+
+
+import org.openqa.selenium.WebDriver;
+
+import io.cucumber.java.en.When;
+
+public class Sample {
+	public static WebDriver driver;
+	String applicationUrlAddress="http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login";
+	@When("User enters OrangeHRM Application Url Address")
+	public void user_enters_orange_hrm_application_url_address()
+	{
+		//Navigating to OrangeHRM Application Url Address
+		driver.get(applicationUrlAddress);
+		// System.out.println(" Sucessfully navigated to OrangeHRM Application ");
+
+		
+		driver.manage().window().maximize();
+
+		// its a time out related to the Application webpage to be loaded on the Browser 
+		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+
+		// elements to be identified with the given property
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); 
+
+	}
+
+}

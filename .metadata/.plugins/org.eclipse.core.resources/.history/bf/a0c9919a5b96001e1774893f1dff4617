@@ -1,0 +1,10 @@
+package com.cucumber;
+
+import io.cucumber.java.en.When;
+
+public class Sample {
+	@When("User enters OrangeHRM Application Url Address")
+	public void user_enters_orange_hrm_application_url_address() {
+	}
+
+}

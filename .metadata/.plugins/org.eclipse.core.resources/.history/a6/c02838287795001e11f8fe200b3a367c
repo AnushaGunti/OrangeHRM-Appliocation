@@ -1,0 +1,43 @@
+package com.OrangeHRM;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
+import com.BaseTest.BaseTest;
+import com.Utility.Log;
+  //object repository class
+public class orangeHRMLogInPage extends BaseTest{
+// This called as Constructor - when the Java Class name is similar to Method Name
+ public orangeHRMLogInPage()
+{
+	PageFactory.initElements( driver,this);	
+}
+@FindBy(id="logInPanelHeading")	
+WebElement logInPanel;
+public void validatinglogInPanelText()
+{
+	String expected_OrangeHRMApplicationLogInPageText="LOGIN Panel";
+	Log.info(" The expected Text of the OrangeHRM Application LogIn Page is :- "+expected_OrangeHRMApplicationLogInPageText);
+
+
+	String actual_OrangeHRMApplicationLogInPageText=logInPanel.getText();
+	Log.info(" The actual Text of the OrangeHRM Application LogIn Page is :- "+actual_OrangeHRMApplicationLogInPageText);
+
+	if(actual_OrangeHRMApplicationLogInPageText.equals(expected_OrangeHRMApplicationLogInPageText))
+	{
+	Log.info(" OrangeHRM Application LogIn Page Text Validation Successfull - PASS ");
+	}
+	else
+	{
+	Log.info(" OrangeHRM Application LogIn Page Text Validation UNSuccessfull - FAIL ");
+	}
+	}
+	
+
+
+
+}
+
+

@@ -1,0 +1,109 @@
+package OHRM;
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.List;
+
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
+
+import com.Utility.Log;
+
+public class EmployeeListTest extends personalDetails {
+	@Test(priority=12,description="Identifying the EmployeeList Property")
+	public void EmployeeList()
+	{
+		By employeeListProperty=By.linkText(properties.getProperty("OrangeHRMAppliationEmployeelistProperty"));
+		WebElement employeeList =driver.findElement(employeeListProperty);
+		employeeList.click();
+	}
+	
+	@Test(priority=13,description="Identifying the EmployeeListTable Proerty Element Functionality")
+	public void EmployeeListTable() throws InterruptedException, IOException
+	{
+		Thread.sleep(3000);
+		///html/body/div[1]/div[3]/div[2]/div/form/div[4]/table/tbody
+		By employeeListTableProperty=By.xpath("/html/body/div[1]/div[3]/div[1]/div[1]/h1");
+		List<WebElement>employeeListTable=driver.findElements(employeeListTableProperty);
+		//going to every row in the table
+		for(int tableRowOfIndex=1;tableRowOfIndex<employeeListTable.size();tableRowOfIndex++)
+		{
+			
+			employeeListTable.get(tableRowOfIndex).getText();
+			XSSFRow row=sheet.createRow(tableRowOfIndex);
+			///html/body/div[1]/div[3]/div[2]/div/form/div[4]/table/tbody/tr[1]
+			By rowProperty=By.xpath("/html/body/div[1]/div[3]/div[2]/div/form/div[4]/table/tbody/tr[1]");
+			//going to every cell in the table
+			for(int RowOfcellindex=1;RowOfcellindex<employeeListTable.size();RowOfcellindex++)
+			{
+				
+				String table=employeeListTable.get(RowOfcellindex).getText();
+				
+				By employeeListTableCellProperty=By.xpath(properties.getProperty("OrangeHRMAppliationEmployeelistTableRowOfCellProperty"));
+				List<WebElement>employeeListTableCell =driver.findElements(employeeListTableCellProperty);
+				//String TableData=employeeListTableCell.get(RowOfcellindex).getText();
+				//String table=employeeListTable.get(RowOfcellindex).getText();
+              XSSFCell cell=row.createCell(RowOfcellindex);
+				cell.setCellValue(table);
+				dataFile=new FileOutputStream("C:\\Users\\HP\\OneDrive\\Desktop\\ApplicationTesting\\OrangeHRMApplication\\Excel File\\OrangeHRM.xlsx");
+	            workbook.write(dataFile);
+	            //Log.info(table+"|");
+	             
+	             
+	            System.out.println(table);
+			}
+			System.out.println();
+		}
+	}
+	@Test(priority=14,description="LogOut Functionality")
+	public void Logout() throws InterruptedException
+	{
+		//welcome Admin Property
+		By welComeAdminProperty=By.id(properties.getProperty("OrangeHRMHomePageWelComeAdminProperty"));
+		WebElement welComeAdmin=driver.findElement(welComeAdminProperty);
+		welComeAdmin.click();
+		Thread.sleep(3000);
+		//LogOut property
+		By logoutProperty=By.xpath(properties.getProperty("OrangeHRMApplicationLogOutProperty"));
+		WebElement logout=driver.findElement(logoutProperty);
+		
+		logout.click();
+	}
+	@Test(priority=15,description="LogIn Page Validation")
+	public void LogInPage() throws IOException
+	{
+		String expected_LogInpanelText=cell.getStringCellValue();
+        Log.info("The Expected Text of the LoginPanel is:-"+expected_LogInpanelText);
+        By LogInPanelText=By.id(properties.getProperty("OrangeHRMHomePageLogInPanelTextProperty"));
+        WebElement LogInPanel=driver.findElement(LogInPanelText);
+        String actual_loginpanel= LogInPanel.getText();
+        Log.info("The Actual Text of the LogInPanel is:-"+actual_loginpanel);
+        cell=row.createCell(1);
+        cell.setCellValue(actual_loginpanel);
+        dataFile=new FileOutputStream("./Excel File/OrangeHRM.xlsx");
+        workbook.write(dataFile);
+        //validating the LogInPAnel Text
+        if(actual_loginpanel.equals(expected_LogInpanelText))
+        {
+        	Log.info("The Text of the LogInPAnel is Matched :-PASS");
+        	cell=row.createCell(2);
+        	cell.setCellValue("PASS");
+        	dataFile=new FileOutputStream("./Excel File/OrangeHRM.xlsx");
+            workbook.write(dataFile);
+        }
+        else
+        {
+        	Log.info("The Text of the LogInPAnel is Matched :-PASS");
+        	cell=row.createCell(2);
+        	cell.setCellValue("File");
+        	dataFile=new FileOutputStream("./Excel File/OrangeHRM.xlsx");
+            workbook.write(dataFile);
+        }
+        
+	}
+
+}

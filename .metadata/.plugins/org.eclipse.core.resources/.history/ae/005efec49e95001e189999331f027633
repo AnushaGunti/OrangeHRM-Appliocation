@@ -1,0 +1,17 @@
+package com.OrangeHRMTests;
+
+import org.testng.annotations.Test;
+
+import com.OrangeHRMApplicationWebPages.LogInPage;
+
+public class LogInPanelTest {
+	@Test(priority=1,description="Validating OHRM Application LogInpage Test")
+	public void ValidatinglogInPannelTextTest()
+	{
+		LogInPage loginpannel=new LogInPage();
+		loginpannel.ValidatingLognPanelText();
+	}
+	
+	
+
+}

@@ -1,0 +1,23 @@
+package com.OrangeHRMTests;
+
+import org.testng.annotations.Test;
+
+import com.BaseTest.BaseTest;
+import com.OrangeHRMApplicationWebPages.OrangeHRMLogInPage;
+
+public class orangeHRMLogInPageTest extends BaseTest{
+	OrangeHRMLogInPage logoTest;
+	@Test(priority=1,description="Validating the LogInPanelTest")
+	public void LogInPanelTextTest()
+	{
+		OrangeHRMLogInPage loginpanel=new OrangeHRMLogInPage(driver);
+		loginpanel.ValidatingLogInPanelText();
+	}
+	@Test(priority=2,description="Validating the LOGO")
+	public void LOGOTest()
+	{
+		OrangeHRMLogInPage logoTest=new OrangeHRMLogInPage();
+		logoTest.LogOfLogInPage();
+	}
+
+}

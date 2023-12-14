@@ -1,0 +1,151 @@
+2023-12-02 11:22:28,324 - Log -INFO -  ***** Successfully launched Chrome Browser ******* 
+2023-12-02 11:22:33,463 - Log -INFO - Sucessfully navigated to OrangeHRM Application 
+2023-12-02 11:22:33,665 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-12-02 11:22:33,712 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-12-02 11:22:33,713 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-12-02 11:22:33,806 - Log -INFO - OrangeHRM Applicaiton LogIn WebPage Contains Logo - PASS 
+2023-12-02 11:22:38,649 - Log -INFO -  ********* Chrome Browser along with OrangeHRM Application Closed Successfully *****
+2023-12-08 08:27:43,493 - Log -INFO -  ***** Successfully launched Chrome Browser ******* 
+2023-12-08 08:27:43,805 - Log -INFO - Sucessfully navigated to OrangeHRM Application 
+2023-12-08 08:27:44,012 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-12-08 08:27:44,050 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-12-08 08:27:44,053 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-12-08 08:27:44,273 - Log -INFO -  ********* Chrome Browser along with OrangeHRM Application Closed Successfully *****
+2023-12-08 08:29:21,197 - Log -INFO -  ***** Successfully launched Chrome Browser ******* 
+2023-12-08 08:29:21,607 - Log -INFO - Sucessfully navigated to OrangeHRM Application 
+2023-12-08 08:29:21,810 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-12-08 08:29:21,849 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-12-08 08:29:21,851 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-12-08 08:29:22,070 - Log -INFO -  ********* Chrome Browser along with OrangeHRM Application Closed Successfully *****
+2023-12-08 08:30:14,952 - Log -INFO -  ***** Successfully launched Chrome Browser ******* 
+2023-12-08 08:30:15,416 - Log -INFO - Sucessfully navigated to OrangeHRM Application 
+2023-12-08 08:30:15,585 - Log -INFO -  The expected Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-12-08 08:30:15,620 - Log -INFO -  The actual Text of the OrangeHRM Application LogIn Page is :- LOGIN Panel
+2023-12-08 08:30:15,625 - Log -INFO -  OrangeHRM Application LogIn Page Text Validation Successfull - PASS 
+2023-12-08 08:30:15,870 - Log -INFO -  ********* Chrome Browser along with OrangeHRM Application Closed Successfully *****
+2023-12-08 08:31:18,100 - Log -INFO -  ***** Successfully launched Chrome Browser ******* 
+2023-12-08 08:31:18,455 - Log -INFO - Sucessfully navigated to OrangeHRM Application 
+2023-12-08 08:31:18,868 - Log -INFO -  ********* Chrome Browser along with OrangeHRM Application Closed Successfully *****
+2023-12-08 13:19:26,659 - Log -INFO - The EXPECTED Text of the LoginPanel is:-LOGIN Panel
+2023-12-08 13:20:49,423 - Log -INFO - The EXPECTED Text of the LoginPanel is:-LOGIN Panel
+2023-12-08 13:22:50,841 - Log -INFO - The EXPECTED Text of the LoginPanel is:-LOGIN Panel
+2023-12-08 13:22:50,867 - Log -INFO - The Actual Text of the LoginPanel is:-LOGIN Panel
+2023-12-08 13:22:50,869 - Log -INFO - OrangeHRM Application LogIn Page text Validation successful-Pass
+2023-12-08 15:23:50,710 - Log -INFO - The Expected Text of the LogInPanel is:-LOGIN Panel
+2023-12-08 15:27:22,150 - Log -INFO - The Expected Text of the LogInPanel is:-LOGIN Panel
+2023-12-08 15:30:45,552 - Log -INFO - The Expected Text of the LogInPanel is:-LOGIN Panel
+2023-12-08 15:32:02,167 - Log -INFO - The Expected Text of the LogInPanel is:-LOGIN Panel
+2023-12-08 15:40:23,932 - Log -INFO - The Expected Text of the LogInPanel is:-LOGIN Panel
+2023-12-08 15:40:23,972 - Log -INFO - The Actual Text of the logInPanel is:-LOGIN Panel
+2023-12-08 15:40:23,973 - Log -INFO - PASS
+2023-12-08 15:40:25,194 - Log -INFO - PASS
+2023-12-08 15:51:17,950 - Log -INFO - The Expected Text of the LogInPanel is:-LOGIN Panel
+2023-12-08 15:51:17,984 - Log -INFO - The Actual Text of the logInPanel is:-LOGIN Panel
+2023-12-08 15:51:17,987 - Log -INFO - PASS
+2023-12-08 15:51:19,266 - Log -INFO - PASS
+2023-12-08 15:52:58,768 - Log -INFO - The Expected Text of the LogInPanel is:-LOGIN Panel
+2023-12-08 15:52:58,804 - Log -INFO - The Actual Text of the logInPanel is:-LOGIN Panel
+2023-12-08 15:52:58,806 - Log -INFO - PASS
+2023-12-08 15:53:00,131 - Log -INFO - PASS
+2023-12-08 18:17:40,584 - Log -INFO - The Expected Text of the LogInPanel is:-LOGIN Panel
+2023-12-08 18:17:40,640 - Log -INFO - The Actual Text of the logInPanel is:-LOGIN Panel
+2023-12-08 18:17:40,643 - Log -INFO - PASS
+2023-12-08 18:17:41,807 - Log -INFO - PASS
+2023-12-08 18:40:50,656 - Log -INFO - The Expected Text of the LogInPanel is:-LOGIN Panel
+2023-12-08 18:40:50,697 - Log -INFO - The Actual Text of the logInPanel is:-LOGIN Panel
+2023-12-08 18:40:50,699 - Log -INFO - PASS
+2023-12-08 18:40:51,849 - Log -INFO - PASS
+2023-12-08 18:49:11,704 - Log -INFO - The Expected Text of the LogInPanel is:-LOGIN Panel
+2023-12-08 18:49:11,749 - Log -INFO - The Actual Text of the logInPanel is:-LOGIN Panel
+2023-12-08 18:49:11,773 - Log -INFO - PASS
+2023-12-08 18:49:12,988 - Log -INFO - PASS
+2023-12-08 18:49:14,350 - Log -INFO - The Expected Text of the Welcome Admin is:-Welcome Admin
+2023-12-08 18:53:55,554 - Log -INFO - The Expected Text of the LogInPanel is:-LOGIN Panel
+2023-12-08 18:53:55,584 - Log -INFO - The Actual Text of the logInPanel is:-LOGIN Panel
+2023-12-08 18:53:55,586 - Log -INFO - PASS
+2023-12-08 18:53:55,633 - Log -INFO - PASS
+2023-12-08 18:53:55,639 - Log -INFO - The Expected Text of the Welcome Admin is:-Welcome Admin
+2023-12-08 18:55:28,454 - Log -INFO - The Expected Text of the LogInPanel is:-LOGIN Panel
+2023-12-08 18:55:28,488 - Log -INFO - The Actual Text of the logInPanel is:-LOGIN Panel
+2023-12-08 18:55:28,489 - Log -INFO - PASS
+2023-12-08 18:55:28,543 - Log -INFO - PASS
+2023-12-08 18:55:28,549 - Log -INFO - The Expected Text of the Welcome Admin is:-Welcome Admin
+2023-12-08 18:59:33,496 - Log -INFO - The Expected Text of the LogInPanel is:-LOGIN Panel
+2023-12-08 18:59:33,533 - Log -INFO - The Actual Text of the logInPanel is:-LOGIN Panel
+2023-12-08 18:59:33,535 - Log -INFO - PASS
+2023-12-08 18:59:33,586 - Log -INFO - PASS
+2023-12-08 18:59:33,780 - Log -INFO - The Expected Text of the Welcome Admin is:-Welcome Admin
+2023-12-08 19:00:58,226 - Log -INFO - The Expected Text of the LogInPanel is:-LOGIN Panel
+2023-12-08 19:00:58,260 - Log -INFO - The Actual Text of the logInPanel is:-LOGIN Panel
+2023-12-08 19:00:58,262 - Log -INFO - PASS
+2023-12-08 19:00:58,313 - Log -INFO - PASS
+2023-12-08 19:00:58,492 - Log -INFO - The Expected Text of the Welcome Admin is:-Welcome Admin
+2023-12-08 19:04:37,181 - Log -INFO - The Expected Text of the LogInPanel is:-LOGIN Panel
+2023-12-08 19:04:37,226 - Log -INFO - The Actual Text of the logInPanel is:-LOGIN Panel
+2023-12-08 19:04:37,228 - Log -INFO - PASS
+2023-12-08 19:04:37,284 - Log -INFO - PASS
+2023-12-08 19:04:37,528 - Log -INFO - The Expected Text of the Welcome Admin is:-Welcome Admin
+2023-12-08 19:07:20,539 - Log -INFO - The Expected Text of the LogInPanel is:-LOGIN Panel
+2023-12-08 19:07:20,577 - Log -INFO - The Actual Text of the logInPanel is:-LOGIN Panel
+2023-12-08 19:07:20,578 - Log -INFO - PASS
+2023-12-08 19:07:20,636 - Log -INFO - PASS
+2023-12-08 19:07:20,810 - Log -INFO - The Expected Text of the Welcome Admin is:-Welcome Admin
+2023-12-08 21:10:08,744 - Log -INFO - The Expected Text of the LogInPanel is:-LOGIN Panel
+2023-12-08 21:10:08,786 - Log -INFO - The Actual Text of the logInPanel is:-LOGIN Panel
+2023-12-08 21:10:08,788 - Log -INFO - PASS
+2023-12-08 21:10:08,838 - Log -INFO - PASS
+2023-12-08 21:10:08,999 - Log -INFO - The Expected Text of the Welcome Admin is:-Welcome Admin
+2023-12-08 21:12:58,285 - Log -INFO - The Expected Text of the LogInPanel is:-LOGIN Panel
+2023-12-08 21:12:58,316 - Log -INFO - The Actual Text of the logInPanel is:-LOGIN Panel
+2023-12-08 21:12:58,318 - Log -INFO - PASS
+2023-12-08 21:12:58,378 - Log -INFO - PASS
+2023-12-08 21:12:58,552 - Log -INFO - The Expected Text of the Welcome Admin is:-Welcome Admin
+2023-12-08 21:15:21,690 - Log -INFO - The Expected Text of the LogInPanel is:-LOGIN Panel
+2023-12-08 21:15:21,722 - Log -INFO - The Actual Text of the logInPanel is:-LOGIN Panel
+2023-12-08 21:15:21,724 - Log -INFO - PASS
+2023-12-08 21:15:21,776 - Log -INFO - PASS
+2023-12-08 21:15:21,909 - Log -INFO - The Expected Text of the Welcome Admin is:-Welcome Admin
+2023-12-08 21:17:26,300 - Log -INFO - The Expected Text of the LogInPanel is:-LOGIN Panel
+2023-12-08 21:17:26,340 - Log -INFO - The Actual Text of the logInPanel is:-LOGIN Panel
+2023-12-08 21:17:26,342 - Log -INFO - PASS
+2023-12-08 21:17:26,408 - Log -INFO - PASS
+2023-12-08 21:17:26,634 - Log -INFO - The Expected Text of the Welcome Admin is:-Welcome Admin
+2023-12-08 21:18:24,208 - Log -INFO - The Expected Text of the LogInPanel is:-LOGIN Panel
+2023-12-08 21:18:24,254 - Log -INFO - The Actual Text of the logInPanel is:-LOGIN Panel
+2023-12-08 21:18:24,256 - Log -INFO - PASS
+2023-12-08 21:18:24,319 - Log -INFO - PASS
+2023-12-08 21:18:24,476 - Log -INFO - The Expected Text of the Welcome Admin is:-Welcome Admin
+2023-12-08 21:19:37,374 - Log -INFO - The Expected Text of the LogInPanel is:-LOGIN Panel
+2023-12-08 21:19:37,411 - Log -INFO - The Actual Text of the logInPanel is:-LOGIN Panel
+2023-12-08 21:19:37,413 - Log -INFO - PASS
+2023-12-08 21:19:37,469 - Log -INFO - PASS
+2023-12-08 21:19:38,991 - Log -INFO - The Expected Text of the Welcome Admin is:-Welcome Admin
+2023-12-08 21:19:39,015 - Log -INFO - The Actual Text of the Welcome Admin Is:-Welcome Admin
+2023-12-08 21:19:39,017 - Log -INFO - PASS
+2023-12-08 21:20:38,959 - Log -INFO - The Expected Text of the LogInPanel is:-LOGIN Panel
+2023-12-08 21:20:38,996 - Log -INFO - The Actual Text of the logInPanel is:-LOGIN Panel
+2023-12-08 21:20:38,998 - Log -INFO - PASS
+2023-12-08 21:20:39,057 - Log -INFO - PASS
+2023-12-08 21:20:40,456 - Log -INFO - The Expected Text of the Welcome Admin is:-Welcome Admin
+2023-12-08 21:20:40,490 - Log -INFO - The Actual Text of the Welcome Admin Is:-Welcome Admin
+2023-12-08 21:20:40,492 - Log -INFO - PASS
+2023-12-09 08:04:38,415 - Log -INFO - The Expected Text of the LogInPanel is:-LOGIN Panel
+2023-12-09 08:04:38,468 - Log -INFO - The Actual Text of the logInPanel is:-LOGIN Panel
+2023-12-09 08:04:38,470 - Log -INFO - PASS
+2023-12-09 08:04:38,525 - Log -INFO - PASS
+2023-12-09 08:04:39,932 - Log -INFO - The Expected Text of the Welcome Admin is:-Welcome Admin
+2023-12-09 08:04:39,961 - Log -INFO - The Actual Text of the Welcome Admin Is:-Welcome Admin
+2023-12-09 08:04:39,963 - Log -INFO - PASS
+2023-12-09 08:33:21,875 - Log -INFO - The Expected Text of the LogInPanel is:-LOGIN Panel
+2023-12-09 08:33:21,904 - Log -INFO - The Actual Text of the logInPanel is:-LOGIN Panel
+2023-12-09 08:33:21,907 - Log -INFO - PASS
+2023-12-09 08:33:21,952 - Log -INFO - PASS
+2023-12-09 08:33:23,337 - Log -INFO - The Expected Text of the Welcome Admin is:-Welcome Admin
+2023-12-09 08:33:23,372 - Log -INFO - The Actual Text of the Welcome Admin Is:-Welcome Admin
+2023-12-09 08:33:23,374 - Log -INFO - PASS
+2023-12-09 09:50:40,346 - Log -INFO - The Expected Text of the LogInPanel is:-LOGIN Panel
+2023-12-09 09:50:40,381 - Log -INFO - The Actual Text of the logInPanel is:-LOGIN Panel
+2023-12-09 09:50:40,383 - Log -INFO - PASS
+2023-12-09 09:50:45,728 - Log -INFO - The Expected Text of the Welcome Admin is:-Welcome Admin
+2023-12-09 09:50:45,792 - Log -INFO - The Actual Text of the Welcome Admin Is:-Welcome Admin
+2023-12-09 09:50:45,806 - Log -INFO - PASS

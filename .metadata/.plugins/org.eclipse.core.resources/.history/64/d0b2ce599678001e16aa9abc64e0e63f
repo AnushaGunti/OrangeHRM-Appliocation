@@ -1,0 +1,19 @@
+package AssignmentOHRM3;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class OHRMApp {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\HP\\OneDrive\\Desktop\\ApplicationTesting\\WebApplicationTesting\\BrowserDriverFiles\\chromedriver.exe");
+         ChromeDriver driver=new ChromeDriver();
+        String AppUrl="http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login";
+        driver.get(AppUrl);
+     String  ExpectedOrangeHRMHomePageTitle= "OrangeHRM";
+     System.out.println("The Expected title of the OrangeHRM :-"+ExpectedOrangeHRMHomePageTitle);
+     String ActualOrangeHRMHomePageTitle=driver.getTitle();
+     System.out.println("The Actual title of the OrangeHRM :-"+ActualOrangeHRMHomePageTitle);
+     
+	}
+
+}

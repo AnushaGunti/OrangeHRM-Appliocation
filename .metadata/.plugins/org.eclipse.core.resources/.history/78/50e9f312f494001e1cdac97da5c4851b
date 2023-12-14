@@ -1,0 +1,14 @@
+
+<suite name="OrangeHRM Application">
+  <test name="Automating Browser">
+    <classes>
+      <class name="BaseTest"/>
+      
+    </classes>
+  </test> 
+  <test name="LogInTest">
+  <classes>
+  <class>
+  </class></classes>
+  </test>
+</suite> 

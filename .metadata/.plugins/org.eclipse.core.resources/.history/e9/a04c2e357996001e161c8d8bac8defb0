@@ -1,0 +1,5 @@
+Feature: Amazon Appliation Functionalities Testing
+
+Scenario: OrangeHRM Applicaiton LogIn Page Validation
+
+Given User should open the Chrome Browser

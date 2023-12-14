@@ -1,0 +1,37 @@
+package com.OrangeHRMApplicationWebPages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import com.BaseTest.BaseTest1;
+import com.Utility.Log;
+
+public class LogInPage extends BaseTest1{
+	public LogInPage()
+	{
+		PageFactory.initElements(driver,this);
+	}
+	
+	
+		//property of the Element og LoGinPanel----id="logInPanelHeading"
+		@FindBy(id="logInPanelHeading")
+		WebElement loginpanel;
+		public void ValidatingLognPanelText()//Bussiness Logic 
+		{
+		String expected_LogInPanel_Text= "LOGIN Panel";
+		Log.info("The EXPECTED Text of the LoginPanel is:-"+expected_LogInPanel_Text);
+		
+	String	actual_LogInPanel_Text=loginpanel.getText();
+	Log.info("The Actual Text of the LoginPanel is:-"+actual_LogInPanel_Text);
+	if(actual_LogInPanel_Text.equals(expected_LogInPanel_Text))
+	{
+		Log.info("OrangeHRM Application LogIn Page text Validation successful-Pass");
+	}
+	else
+	{
+		Log.info("OrangeHRM Application LogIn Page text Validation UNsuccessful-Fail");
+	}
+		}
+
+}

@@ -1,0 +1,18 @@
+
+<suite name="OrangeHRM Application" parallel="tests">
+  <test name="Automating Browser">
+    <classes>
+      <class name="OHRM.BaseTest"/>
+    </classes>
+  </test> 
+  <test name="LogInTest">
+  <classes>
+  <class name="OHRM.LogInPageOHRM">
+  </class></classes>
+  </test>
+  <test name="AddEmployee">
+  <classes>
+  <class name="OHRM.AddEmployee">
+  </class></classes>
+   </test>
+</suite> 

@@ -1,0 +1,38 @@
+package AssignmentOHRM3;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class OHRMApp {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\HP\\OneDrive\\Desktop\\ApplicationTesting\\WebApplicationTesting\\BrowserDriverFiles\\chromedriver.exe");
+         ChromeDriver driver=new ChromeDriver();
+        String AppUrl="http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login";
+        driver.get(AppUrl);
+     String  ExpectedOrangeHRMHomePageTitle= "OrangeHRM";
+     System.out.println("The Expected title of the OrangeHRM :-"+ExpectedOrangeHRMHomePageTitle);
+     String ActualOrangeHRMHomePageTitle=driver.getTitle();
+     System.out.println("The Actual title of the OrangeHRM :-"+ActualOrangeHRMHomePageTitle);
+     if(ActualOrangeHRMHomePageTitle.equals(ExpectedOrangeHRMHomePageTitle))
+     {
+    	 System.out.println("The Title of the OrangeHRM HomePage is matched :-PASS");
+     }
+     else
+     {
+    	 System.out.println("The Title of the OrangeHRM HomePage is NOT matched:-FAIL");
+     }
+   String ExpectedURL= "OrangeHRM-4.2.0.1";
+   System.out.println("The expected URL of the OHRM :-"+ExpectedURL);
+   String ActualURL=driver.getCurrentUrl();
+   System.out.println("The Actual URL of the OHRM:-"+ActualURL);
+   if(ActualURL.equals(ExpectedURL))
+   {
+	   System.out.println("The Url of the OHRM is Matched:-PASS");
+   }  
+	   {
+		   System.out.println("The Url of the OHRM is NOT Matched:-FAIL");
+	   }
+   
+	}
+
+}

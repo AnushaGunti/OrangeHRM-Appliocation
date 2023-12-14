@@ -1,0 +1,46 @@
+package OHRM;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
+
+public class EmployeeListTablePractice extends BaseTest{
+	@Test(priority=1,description="EmployeeListPage")
+	public void EmployeeList()
+	{
+		By employeeListProperty=By.linkText("Employee List");
+		WebElement employeeList =driver.findElement(employeeListProperty);
+		employeeList.click();
+	}
+	@Test(priority=2,description="EmployeeList table")
+	public void EmployeeListTable()
+	{
+		//identifying the Employee TAble
+	    By employeeListTableProperty=By.className("table hover")	;
+	   WebElement employeeListTable=driver.findElement(employeeListTableProperty);
+	   //identifying the RowProperty in the table
+	  // <tr class="even">
+	  By rowProperty=By.tagName("tr");
+      List<WebElement>row=employeeListTable.findElements(rowProperty);
+      
+      for(int RowOfIndex=1;RowOfIndex<=row.size();RowOfIndex++)
+      {
+    	  //Going to A Particaular row
+    	 WebElement  tableofrow=row.get(RowOfIndex);
+    	 //Identifying the Cell Property int he Row
+    	 //<td class="left">
+    	 By cellproperty=By.tagName("td");
+    	List<WebElement>cell=tableofrow.findElements(cellproperty);
+    	for(int CellOfIndex=0;CellOfIndex<=cell.size();CellOfIndex++)
+    	{
+    		//going to a Particular cell in the Row
+    		WebElement tableofcell=cell.get(CellOfIndex);
+    		System.out.print(tableofcell+ "|");
+    	}
+    	System.out.println();
+      }
+	}
+
+}

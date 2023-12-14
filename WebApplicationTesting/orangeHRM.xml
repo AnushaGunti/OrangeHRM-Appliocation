@@ -1,0 +1,21 @@
+<suite name="OrangeHRM Application">
+<test name="LogInTest">
+<classes>
+<class name="OrangeHRMusingPropertiesFile.BaseTest"></class>
+</classes>
+</test>
+<test name="EmployeeDetails">
+<classes>
+<class name="OrangeHRMusingPropertiesFile.OHRMEmployeeDetails">
+</class></classes>
+</test>
+<test name="PersonalDetails">
+<classes>
+<class name="OrangeHRMusingPropertiesFile.oHRMPersonalDetails">
+</class>
+</classes>
+</test>
+</suite>
+
+
+

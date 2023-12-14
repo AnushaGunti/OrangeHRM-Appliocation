@@ -1,0 +1,6 @@
+
+Feature: OrangeHRM Appliation Functionalities Testing
+
+Background:
+Given User should Open Chrome Browser in the System
+

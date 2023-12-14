@@ -1,0 +1,7 @@
+package com.OrangeHRMTests;
+
+public class LogInPanelTest {
+	@Test
+	
+
+}

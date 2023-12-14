@@ -1,0 +1,98 @@
+<h2>Methods run, sorted chronologically</h2><h3>&gt;&gt; means before, &lt;&lt; means after</h3><p/><br/><em>OrangeHRM Application</em><p/><small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table border="1">
+<tr><th>Time</th><th>Delta (ms)</th><th>Suite<br>configuration</th><th>Test<br>configuration</th><th>Class<br>configuration</th><th>Groups<br>configuration</th><th>Method<br>configuration</th><th>Test<br>method</th><th>Thread</th><th>Instances</th></tr>
+<tr bgcolor="ee8774">  <td>23/12/08 09:29:47</td>   <td>0</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="AddEmployee.AddEmployeeTextPageTest()[pri:5, instance:OHRM.AddEmployee@22ef9844]">AddEmployeeTextPageTest</td> 
+  <td>TestNG-tests-3@366154409</td>   <td></td> </tr>
+<tr bgcolor="ee8774">  <td>23/12/08 09:29:47</td>   <td>153</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="AddEmployee.AddEmployeeTextPageTest()[pri:5, instance:OHRM.personalDetails@1a18644]">AddEmployeeTextPageTest</td> 
+  <td>TestNG-tests-4@1338992271</td>   <td></td> </tr>
+<tr bgcolor="ee8774">  <td>23/12/08 09:29:46</td>   <td>-599</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="AddEmployee.AddEmployeeTextPageTest()[pri:5, instance:OHRM.EmployeeListTest@618425b5]">AddEmployeeTextPageTest</td> 
+  <td>TestNG-tests-5@1770413787</td>   <td></td> </tr>
+<tr bgcolor="ee8774">  <td>23/12/08 09:29:53</td>   <td>5487</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="AddEmployee.EmployeeID()[pri:7, instance:OHRM.AddEmployee@22ef9844]">EmployeeID</td> 
+  <td>TestNG-tests-3@366154409</td>   <td></td> </tr>
+<tr bgcolor="ee8774">  <td>23/12/08 09:29:51</td>   <td>4051</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="AddEmployee.EmployeeID()[pri:7, instance:OHRM.personalDetails@1a18644]">EmployeeID</td> 
+  <td>TestNG-tests-4@1338992271</td>   <td></td> </tr>
+<tr bgcolor="ee8774">  <td>23/12/08 09:29:50</td>   <td>3345</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="AddEmployee.EmployeeID()[pri:7, instance:OHRM.EmployeeListTest@618425b5]">EmployeeID</td> 
+  <td>TestNG-tests-5@1770413787</td>   <td></td> </tr>
+<tr bgcolor="98a266">  <td>23/12/08 09:29:57</td>   <td>10203</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="EmployeeListTest.EmployeeList()[pri:12, instance:OHRM.EmployeeListTest@618425b5]">EmployeeList</td> 
+  <td>TestNG-tests-5@1770413787</td>   <td></td> </tr>
+<tr bgcolor="98a266">  <td>23/12/08 09:29:58</td>   <td>10870</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="EmployeeListTest.EmployeeListTable()[pri:13, instance:OHRM.EmployeeListTest@618425b5]">EmployeeListTable</td> 
+  <td>TestNG-tests-5@1770413787</td>   <td></td> </tr>
+<tr bgcolor="98a266">  <td>23/12/08 09:30:07</td>   <td>19819</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="EmployeeListTest.LogInPage()[pri:15, instance:OHRM.EmployeeListTest@618425b5]">LogInPage</td> 
+  <td>TestNG-tests-5@1770413787</td>   <td></td> </tr>
+<tr bgcolor="c799b1">  <td>23/12/08 09:29:40</td>   <td>-7290</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="LogInPageOHRM.LogInPanel()[pri:1, instance:OHRM.LogInPageOHRM@53fdffa1]">LogInPanel</td> 
+  <td>TestNG-tests-2@861710994</td>   <td></td> </tr>
+<tr bgcolor="c799b1">  <td>23/12/08 09:29:40</td>   <td>-7245</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="LogInPageOHRM.LogInPanel()[pri:1, instance:OHRM.AddEmployee@22ef9844]">LogInPanel</td> 
+  <td>TestNG-tests-3@366154409</td>   <td></td> </tr>
+<tr bgcolor="c799b1">  <td>23/12/08 09:29:40</td>   <td>-7386</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="LogInPageOHRM.LogInPanel()[pri:1, instance:OHRM.personalDetails@1a18644]">LogInPanel</td> 
+  <td>TestNG-tests-4@1338992271</td>   <td></td> </tr>
+<tr bgcolor="c799b1">  <td>23/12/08 09:29:40</td>   <td>-7289</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="LogInPageOHRM.LogInPanel()[pri:1, instance:OHRM.EmployeeListTest@618425b5]">LogInPanel</td> 
+  <td>TestNG-tests-5@1770413787</td>   <td></td> </tr>
+<tr bgcolor="98a266">  <td>23/12/08 09:30:03</td>   <td>16287</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="EmployeeListTest.Logout()[pri:14, instance:OHRM.EmployeeListTest@618425b5]">Logout</td> 
+  <td>TestNG-tests-5@1770413787</td>   <td></td> </tr>
+<tr bgcolor="a2cb77">  <td>23/12/08 09:29:55</td>   <td>8201</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="personalDetails.NameValidation()[pri:10, instance:OHRM.personalDetails@1a18644]">NameValidation</td> 
+  <td>TestNG-tests-4@1338992271</td>   <td></td> </tr>
+<tr bgcolor="a2cb77">  <td>23/12/08 09:29:56</td>   <td>8930</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="personalDetails.NameValidation()[pri:10, instance:OHRM.EmployeeListTest@618425b5]">NameValidation</td> 
+  <td>TestNG-tests-5@1770413787</td>   <td></td> </tr>
+<tr bgcolor="ee8774">  <td>23/12/08 09:29:46</td>   <td>-748</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="AddEmployee.PIMMouseHover()[pri:4, instance:OHRM.AddEmployee@22ef9844]">PIMMouseHover</td> 
+  <td>TestNG-tests-3@366154409</td>   <td></td> </tr>
+<tr bgcolor="ee8774">  <td>23/12/08 09:29:47</td>   <td>-164</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="AddEmployee.PIMMouseHover()[pri:4, instance:OHRM.personalDetails@1a18644]">PIMMouseHover</td> 
+  <td>TestNG-tests-4@1338992271</td>   <td></td> </tr>
+<tr bgcolor="ee8774">  <td>23/12/08 09:29:46</td>   <td>-1421</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="AddEmployee.PIMMouseHover()[pri:4, instance:OHRM.EmployeeListTest@618425b5]">PIMMouseHover</td> 
+  <td>TestNG-tests-5@1770413787</td>   <td></td> </tr>
+<tr bgcolor="a2cb77">  <td>23/12/08 09:29:55</td>   <td>8167</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="personalDetails.PersonalDetailsTest()[pri:9, instance:OHRM.personalDetails@1a18644]">PersonalDetailsTest</td> 
+  <td>TestNG-tests-4@1338992271</td>   <td></td> </tr>
+<tr bgcolor="a2cb77">  <td>23/12/08 09:29:56</td>   <td>8539</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="personalDetails.PersonalDetailsTest()[pri:9, instance:OHRM.EmployeeListTest@618425b5]">PersonalDetailsTest</td> 
+  <td>TestNG-tests-5@1770413787</td>   <td></td> </tr>
+<tr bgcolor="a2cb77">  <td>23/12/08 09:29:55</td>   <td>8277</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="personalDetails.PhotoAboveName()[pri:11, instance:OHRM.personalDetails@1a18644]">PhotoAboveName</td> 
+  <td>TestNG-tests-4@1338992271</td>   <td></td> </tr>
+<tr bgcolor="a2cb77">  <td>23/12/08 09:29:57</td>   <td>9979</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="personalDetails.PhotoAboveName()[pri:11, instance:OHRM.EmployeeListTest@618425b5]">PhotoAboveName</td> 
+  <td>TestNG-tests-5@1770413787</td>   <td></td> </tr>
+<tr bgcolor="ee8774">  <td>23/12/08 09:29:51</td>   <td>4093</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="AddEmployee.UserData()[pri:6, instance:OHRM.AddEmployee@22ef9844]">UserData</td> 
+  <td>TestNG-tests-3@366154409</td>   <td></td> </tr>
+<tr bgcolor="ee8774">  <td>23/12/08 09:29:50</td>   <td>2732</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="AddEmployee.UserData()[pri:6, instance:OHRM.personalDetails@1a18644]">UserData</td> 
+  <td>TestNG-tests-4@1338992271</td>   <td></td> </tr>
+<tr bgcolor="ee8774">  <td>23/12/08 09:29:49</td>   <td>2315</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="AddEmployee.UserData()[pri:6, instance:OHRM.EmployeeListTest@618425b5]">UserData</td> 
+  <td>TestNG-tests-5@1770413787</td>   <td></td> </tr>
+<tr bgcolor="ee8774">  <td>23/12/08 09:29:53</td>   <td>5732</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="AddEmployee.photo()[pri:8, instance:OHRM.AddEmployee@22ef9844]">photo</td> 
+  <td>TestNG-tests-3@366154409</td>   <td></td> </tr>
+<tr bgcolor="ee8774">  <td>23/12/08 09:29:51</td>   <td>4294</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="AddEmployee.photo()[pri:8, instance:OHRM.personalDetails@1a18644]">photo</td> 
+  <td>TestNG-tests-4@1338992271</td>   <td></td> </tr>
+<tr bgcolor="ee8774">  <td>23/12/08 09:29:51</td>   <td>4101</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="AddEmployee.photo()[pri:8, instance:OHRM.EmployeeListTest@618425b5]">photo</td> 
+  <td>TestNG-tests-5@1770413787</td>   <td></td> </tr>
+<tr bgcolor="a38269">  <td>23/12/08 09:29:37</td>   <td>-9952</td> <td>&nbsp;</td><td title="&gt;&gt;BaseTest.setup()[pri:0, instance:OHRM.BaseTest@be35cd9]">&gt;&gt;setup</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>TestNG-tests-1@1300692788</td>   <td></td> </tr>
+<tr bgcolor="a38269">  <td>23/12/08 09:29:37</td>   <td>-9952</td> <td>&nbsp;</td><td title="&gt;&gt;BaseTest.setup()[pri:0, instance:OHRM.LogInPageOHRM@53fdffa1]">&gt;&gt;setup</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>TestNG-tests-2@861710994</td>   <td></td> </tr>
+<tr bgcolor="a38269">  <td>23/12/08 09:29:37</td>   <td>-9952</td> <td>&nbsp;</td><td title="&gt;&gt;BaseTest.setup()[pri:0, instance:OHRM.AddEmployee@22ef9844]">&gt;&gt;setup</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>TestNG-tests-3@366154409</td>   <td></td> </tr>
+<tr bgcolor="a38269">  <td>23/12/08 09:29:37</td>   <td>-9952</td> <td>&nbsp;</td><td title="&gt;&gt;BaseTest.setup()[pri:0, instance:OHRM.personalDetails@1a18644]">&gt;&gt;setup</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>TestNG-tests-4@1338992271</td>   <td></td> </tr>
+<tr bgcolor="a38269">  <td>23/12/08 09:29:37</td>   <td>-9952</td> <td>&nbsp;</td><td title="&gt;&gt;BaseTest.setup()[pri:0, instance:OHRM.EmployeeListTest@618425b5]">&gt;&gt;setup</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>TestNG-tests-5@1770413787</td>   <td></td> </tr>
+<tr bgcolor="a38269">  <td>23/12/08 09:29:40</td>   <td>-7349</td> <td>&nbsp;</td><td title="&lt;&lt;BaseTest.teardown()[pri:0, instance:OHRM.BaseTest@be35cd9]">&lt;&lt;teardown</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>TestNG-tests-1@1300692788</td>   <td></td> </tr>
+<tr bgcolor="a38269">  <td>23/12/08 09:29:46</td>   <td>-620</td> <td>&nbsp;</td><td title="&lt;&lt;BaseTest.teardown()[pri:0, instance:OHRM.LogInPageOHRM@53fdffa1]">&lt;&lt;teardown</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>TestNG-tests-2@861710994</td>   <td></td> </tr>
+<tr bgcolor="a38269">  <td>23/12/08 09:29:55</td>   <td>7768</td> <td>&nbsp;</td><td title="&lt;&lt;BaseTest.teardown()[pri:0, instance:OHRM.AddEmployee@22ef9844]">&lt;&lt;teardown</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>TestNG-tests-3@366154409</td>   <td></td> </tr>
+<tr bgcolor="a38269">  <td>23/12/08 09:29:55</td>   <td>8296</td> <td>&nbsp;</td><td title="&lt;&lt;BaseTest.teardown()[pri:0, instance:OHRM.personalDetails@1a18644]">&lt;&lt;teardown</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>TestNG-tests-4@1338992271</td>   <td></td> </tr>
+<tr bgcolor="a38269">  <td>23/12/08 09:30:07</td>   <td>19924</td> <td>&nbsp;</td><td title="&lt;&lt;BaseTest.teardown()[pri:0, instance:OHRM.EmployeeListTest@618425b5]">&lt;&lt;teardown</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>TestNG-tests-5@1770413787</td>   <td></td> </tr>
+<tr bgcolor="c799b1">  <td>23/12/08 09:29:42</td>   <td>-4922</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="LogInPageOHRM.username()[pri:2, instance:OHRM.LogInPageOHRM@53fdffa1]">username</td> 
+  <td>TestNG-tests-2@861710994</td>   <td></td> </tr>
+<tr bgcolor="c799b1">  <td>23/12/08 09:29:42</td>   <td>-4922</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="LogInPageOHRM.username()[pri:2, instance:OHRM.AddEmployee@22ef9844]">username</td> 
+  <td>TestNG-tests-3@366154409</td>   <td></td> </tr>
+<tr bgcolor="c799b1">  <td>23/12/08 09:29:42</td>   <td>-4922</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="LogInPageOHRM.username()[pri:2, instance:OHRM.personalDetails@1a18644]">username</td> 
+  <td>TestNG-tests-4@1338992271</td>   <td></td> </tr>
+<tr bgcolor="c799b1">  <td>23/12/08 09:29:42</td>   <td>-4922</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="LogInPageOHRM.username()[pri:2, instance:OHRM.EmployeeListTest@618425b5]">username</td> 
+  <td>TestNG-tests-5@1770413787</td>   <td></td> </tr>
+<tr bgcolor="c799b1">  <td>23/12/08 09:29:45</td>   <td>-2377</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="LogInPageOHRM.welComeAdmin()[pri:3, instance:OHRM.LogInPageOHRM@53fdffa1]">welComeAdmin</td> 
+  <td>TestNG-tests-2@861710994</td>   <td></td> </tr>
+<tr bgcolor="c799b1">  <td>23/12/08 09:29:45</td>   <td>-2132</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="LogInPageOHRM.welComeAdmin()[pri:3, instance:OHRM.AddEmployee@22ef9844]">welComeAdmin</td> 
+  <td>TestNG-tests-3@366154409</td>   <td></td> </tr>
+<tr bgcolor="c799b1">  <td>23/12/08 09:29:45</td>   <td>-2263</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="LogInPageOHRM.welComeAdmin()[pri:3, instance:OHRM.personalDetails@1a18644]">welComeAdmin</td> 
+  <td>TestNG-tests-4@1338992271</td>   <td></td> </tr>
+<tr bgcolor="c799b1">  <td>23/12/08 09:29:45</td>   <td>-2328</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="LogInPageOHRM.welComeAdmin()[pri:3, instance:OHRM.EmployeeListTest@618425b5]">welComeAdmin</td> 
+  <td>TestNG-tests-5@1770413787</td>   <td></td> </tr>
+</table>

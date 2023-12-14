@@ -1,0 +1,22 @@
+2023-11-22 15:55:32,262 - Log -INFO - The Expected orangeHRMApplication LogInPageText is:-LOGIN Panel
+2023-11-22 15:55:32,315 - Log -INFO - The Actual orangeHRMApplication LogInPageText is:-LOGIN Panel
+2023-11-22 15:55:32,515 - Log -INFO - PASS 
+2023-11-22 16:00:05,599 - Log -INFO - The Expected orangeHRMApplication LogInPageText is:-LOGIN Panel
+2023-11-22 16:00:05,652 - Log -INFO - The Actual orangeHRMApplication LogInPageText is:-LOGIN Panel
+2023-11-22 16:00:05,825 - Log -INFO - PASS 
+2023-11-22 16:00:23,100 - Log -INFO - The Expected orangeHRMApplication LogInPageText is:-LOGIN Panel
+2023-11-22 16:03:38,895 - Log -INFO - The Expected orangeHRMApplication LogInPageText is:-LOGIN Panel
+2023-11-22 16:03:38,935 - Log -INFO - The Actual orangeHRMApplication LogInPageText is:-LOGIN Panel
+2023-11-22 16:03:39,131 - Log -INFO - PASS 
+2023-11-22 16:03:57,017 - Log -INFO - The Expected orangeHRMApplication LogInPageText is:-LOGIN Panel
+2023-11-22 16:03:57,048 - Log -INFO - The Actual orangeHRMApplication LogInPageText is:-LOGIN Panel
+2023-11-22 16:03:57,066 - Log -INFO - PASS 
+2023-11-22 19:45:17,763 - Log -INFO - The Expected orangeHRMApplication LogInPageText is:-LOGIN Panel
+2023-11-22 19:45:17,813 - Log -INFO - The Actual orangeHRMApplication LogInPageText is:-LOGIN Panel
+2023-11-22 19:45:17,964 - Log -INFO - PASS 
+2023-11-22 19:45:35,384 - Log -INFO - The Expected orangeHRMApplication LogInPageText is:-LOGIN Panel
+2023-11-22 19:46:07,298 - Log -INFO - The Expected orangeHRMApplication LogInPageText is:-LOGIN Panel
+2023-11-22 19:46:07,332 - Log -INFO - The Actual orangeHRMApplication LogInPageText is:-LOGIN Panel
+2023-11-22 19:46:07,467 - Log -INFO - PASS 
+2023-11-22 19:46:12,275 - Log -INFO - The Expected orangeHRMApplication LogInPageText is:-LOGIN Panel
+2023-11-28 11:27:23,531 - Log -INFO - ****Edge Browser Launched Successfully*********

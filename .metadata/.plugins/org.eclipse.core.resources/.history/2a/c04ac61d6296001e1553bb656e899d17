@@ -1,0 +1,26 @@
+package com.StepDefination;
+
+import java.util.concurrent.TimeUnit;
+
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.When;
+
+public class  {
+	public static WebDriver driver;
+	String OHRMUrlAddress="http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login";
+	@When("User enters OrangeHRM Application Url Address")
+	public void user_enters_orange_hrm_application_url_address()
+	{
+	      System.setProperty("webdriver.chrome.driver", "C:\\Users\\HP\\OneDrive\\Desktop\\ApplicationTesting\\com.cucumber\\Driver Files\\chromedriver.exe");
+	      driver=new ChromeDriver();
+	      driver.get(OHRMUrlAddress);
+	}
+
+	
+	}
+
+
